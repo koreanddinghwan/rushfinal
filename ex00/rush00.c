@@ -23,16 +23,16 @@ void	rush(int x, int y)
 {
 	if (x >= 1 && y >= 1)
 	{
-		printline(x, '/', '*', '\\');
+		printline(x, 'o', '-', 'o');
 		y--;
 		while (y >= 2)
 		{
-			printline(x, '*', ' ', '*');
+			printline(x, '|', ' ', '|');
 			y--;
 		}
 		if (y == 1)
 		{
-			printline(x, '\\', '*', '/');
+			printline(x, 'o', '-', 'o');
 		}
 	}
 }
