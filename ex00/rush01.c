@@ -1,9 +1,6 @@
 #include <unistd.h>
 
-void	ft_putchar(char c)
-{
-	write(1, &c, 1);
-}
+void	ft_putchar(char c);
 
 void	printline(int x, char start, char middle, char last)
 {
