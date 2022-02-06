@@ -18,7 +18,7 @@ void	printline(int x, char start, char middle, char last)
 
 void	rush(int x, int y)
 {
-	if (x >= 1 && y >= 1)
+	if ((x >= 1 && y >= 1) && (x <= 2147483647 && y <= 2147483647))
 	{
 		printline(x, 'A', 'B', 'A');
 		y--;
